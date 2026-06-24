@@ -1,0 +1,54 @@
+name: New AI Project Idea
+description: Submit a new AI project idea
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an AI project idea. Please make it practical and specific.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: What is the project called?
+      placeholder: AI GitHub Profile Maker
+    validations:
+      required: true
+  - type: textarea
+    id: one_liner
+    attributes:
+      label: One-liner
+      description: Explain the idea in one sentence.
+      placeholder: 输入 GitHub 用户名，AI 自动生成 Profile README、个人定位和涨粉计划。
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Target users
+      description: Who will use this?
+      placeholder: 开源作者、求职者、技术博主
+    validations:
+      required: true
+  - type: textarea
+    id: pain
+    attributes:
+      label: Pain point
+      description: What real problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: mvp
+    attributes:
+      label: MVP scope
+      description: What should the first version include?
+    validations:
+      required: true
+  - type: textarea
+    id: stack
+    attributes:
+      label: Suggested tech stack
+      description: Optional implementation stack.
+    validations:
+      required: false

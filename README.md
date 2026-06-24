@@ -2,6 +2,12 @@
 
 > 100+ 可落地的 AI 项目创意、MVP 方案和开源实现指南。
 
+<p>
+  <a href="https://github.com/a-bo/ai-project-ideas/stargazers"><img src="https://img.shields.io/github/stars/a-bo/ai-project-ideas?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/a-bo/ai-project-ideas/blob/main/LICENSE"><img src="https://img.shields.io/github/license/a-bo/ai-project-ideas" alt="License" /></a>
+  <a href="https://github.com/a-bo/ai-project-ideas/issues"><img src="https://img.shields.io/github/issues/a-bo/ai-project-ideas" alt="Issues" /></a>
+</p>
+
 很多人想做 AI 项目，但真正卡住的不是模型 API，而是：
 
 - 不知道做什么项目
@@ -118,6 +124,15 @@
 - 解决什么痛点
 - 第一版怎么做
 - 为什么值得做
+
+## 推荐 Star 的理由
+
+这个仓库会持续维护：
+
+- 更多可落地 AI 项目方向
+- 更完整的 MVP 拆解
+- 更适合简历 / 毕设 / 开源作品集的项目方案
+- 从 idea 到真实项目的实现案例
 
 ## Star History
 
