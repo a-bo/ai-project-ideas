@@ -61,3 +61,21 @@ MVP:
 - 生成开场白
 - 生成跟进邮件
 - 生成异议处理话术
+
+## 6. AI Customer Interview Synthesizer
+
+把用户访谈录音、逐字稿和研究笔记自动整理成痛点、需求、异议和产品机会清单。
+
+详情：[ai-customer-interview-synthesizer.md](ai-customer-interview-synthesizer.md)
+
+## 7. AI Compliance Doc Diff Checker
+
+自动比对制度、合同、合规文档的新旧版本，定位关键变化并解释潜在风险。
+
+详情：[ai-compliance-doc-diff-checker.md](ai-compliance-doc-diff-checker.md)
+
+## 8. AI Sales Call Objection Mapper
+
+分析销售通话或跟进记录，自动提炼客户异议、丢单原因和可复用的话术改进建议。
+
+详情：[ai-sales-call-objection-mapper.md](ai-sales-call-objection-mapper.md)

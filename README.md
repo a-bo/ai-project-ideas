@@ -1,6 +1,6 @@
 # AI Project Ideas
 
-> 100+ 可落地的 AI 项目创意、MVP 方案和开源实现指南。
+> 35+ 可落地的 AI 项目创意、MVP 方案和开源实现指南。
 
 <p>
   <a href="https://github.com/a-bo/ai-project-ideas/stargazers"><img src="https://img.shields.io/github/stars/a-bo/ai-project-ideas?style=social" alt="GitHub stars" /></a>
@@ -17,6 +17,16 @@
 - 不知道一个想法有没有继续做下去的价值
 
 这个仓库不是简单收集“点子”，而是把每个 AI 项目拆成可以直接开干的方案。
+
+## Start Here
+
+如果你第一次来到这个仓库，建议按下面顺序看：
+
+1. 先读 [docs/how-to-choose-ai-project.md](docs/how-to-choose-ai-project.md)，明确你适合做哪类项目。
+2. 再看 [ideas/index.md](ideas/index.md)，按分类快速筛选方向。
+3. 从 5 个精选项目里挑 1 个，先做 MVP，不要同时开太多坑。
+4. 如果你想做更偏工程化的项目，优先看 Developer Tools 和 AI Agent。
+5. 如果你想做更容易上线验证的项目，优先看 Productivity 和 Business。
 
 ## 适合谁
 
@@ -38,6 +48,14 @@
 | [Business](ideas/business.md) | 可商业化小产品 | AI Customer Support、AI Landing Page Reviewer |
 
 完整索引：[ideas/index.md](ideas/index.md)
+
+## Weekly Updates
+
+- 2026-07-07:
+  - 新增 5 个详细 idea 页面
+  - README 标题从 `100+` 调整为 `35+`
+  - 补充周更节奏说明
+  - 新增周更记录文档：[docs/weekly-updates.md](docs/weekly-updates.md)
 
 ## 精选项目
 
@@ -133,6 +151,13 @@
 - 更完整的 MVP 拆解
 - 更适合简历 / 毕设 / 开源作品集的项目方案
 - 从 idea 到真实项目的实现案例
+
+## 当前重点维护方向
+
+- 继续把 `35+` ideas 扩展到 `50+`
+- 优先补深度，而不是只加标题
+- 从仓库中选 1 个项目做真实 MVP
+- 每周至少沉淀 1 篇可外发的中文内容
 
 ## Star History
 

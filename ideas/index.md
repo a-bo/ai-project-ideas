@@ -9,6 +9,8 @@
 | [AI GitHub Profile Maker](ai-github-profile-maker.md) | 输入 GitHub 用户名，生成 Profile README、定位和涨粉计划 | 中等 |
 | [Repo Reader Agent](repo-reader-agent.md) | 输入仓库地址，AI 帮你读懂项目结构和启动方式 | 中等 |
 | [AI Code Reviewer](ai-code-reviewer.md) | 读取 diff / PR，生成代码审查报告 | 中等偏上 |
+| [AI OSS Issue Triage Copilot](ai-oss-issue-triage-copilot.md) | 自动分类 issue、识别重复问题并生成维护者回复 | 中等偏上 |
+| [AI API Changelog Translator](ai-api-changelog-translator.md) | 把 API 更新日志翻译成迁移指南和影响说明 | 中等 |
 | AI README Generator | 根据仓库代码自动生成高质量 README | 中等 |
 | AI Commit Assistant | 根据 diff 生成规范 Commit Message 和变更说明 | 简单 |
 
@@ -61,3 +63,6 @@
 | AI Product Feedback Miner | 从评论、客服记录中提炼用户需求 | 中等 |
 | AI Competitor Monitor | 监控竞品网站、博客、更新和价格变化 | 中等 |
 | AI Sales Script Builder | 根据客户画像生成销售话术和跟进邮件 | 简单 |
+| [AI Customer Interview Synthesizer](ai-customer-interview-synthesizer.md) | 从用户访谈中提炼痛点、需求和产品机会 | 中等 |
+| [AI Compliance Doc Diff Checker](ai-compliance-doc-diff-checker.md) | 比对制度或合同变更并解释潜在风险 | 中等偏上 |
+| [AI Sales Call Objection Mapper](ai-sales-call-objection-mapper.md) | 提炼客户异议、丢单原因和跟进话术 | 中等 |

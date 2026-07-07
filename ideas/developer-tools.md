@@ -55,3 +55,15 @@ MVP:
 ```text
 一个命令，让 AI 帮你写 Commit Message 和 PR 描述
 ```
+
+## 6. AI OSS Issue Triage Copilot
+
+自动分析 GitHub Issues，识别重复问题、建议标签和优先级，并帮维护者起草回复。
+
+详情：[ai-oss-issue-triage-copilot.md](ai-oss-issue-triage-copilot.md)
+
+## 7. AI API Changelog Translator
+
+把 API 更新日志自动翻译成开发者能直接执行的升级说明、风险提醒和迁移步骤。
+
+详情：[ai-api-changelog-translator.md](ai-api-changelog-translator.md)
