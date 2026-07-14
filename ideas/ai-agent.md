@@ -42,10 +42,4 @@ MVP:
 
 根据 OpenAPI 文档生成 AI 可调用工具，让 Agent 能安全调用业务接口。
 
-MVP:
-
-- 上传 OpenAPI schema
-- 解析 endpoints
-- 生成 tool schema
-- 生成调用示例
-- 生成权限说明
+详情：[api-agent-builder.md](api-agent-builder.md)

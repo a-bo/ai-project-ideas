@@ -9,6 +9,7 @@
 - Deepened `AI README Generator` into a detailed developer-tool spec with repo context schema, API design, prompt modules, and README generation workflow.
 - Deepened `AI Commit Assistant` into a structured CLI-oriented spec with diff analysis, commit generation, PR body, and changelog outputs.
 - Deepened `MCP Practice CN` into a Chinese-first tutorial repo spec with runnable examples, permission design, and staged learning path.
+- Deepened `API Agent Builder` into an OpenAPI-to-tooling spec with endpoint review, risk grading, and export flow.
 - Added a July Chinese content plan to turn flagship ideas into weekly outward-facing posts.
 
 ### Why it matters
@@ -18,6 +19,7 @@
 - `AI README Generator` strengthens the same GitHub-facing toolchain and gives the repo a second high-intent developer utility.
 - `AI Commit Assistant` adds a lighter-weight CLI entry point to the same GitHub developer workflow.
 - `MCP Practice CN` adds a tutorial-style Agent engineering entry point with stronger Chinese differentiation.
+- `API Agent Builder` gives the Agent track a more enterprise-facing integration layer.
 - The content plan makes the repo easier to operate as a real growth system instead of a static idea list.
 
 ### Next
@@ -26,6 +28,7 @@
 - Consider pairing `AI GitHub Profile Maker` and `AI README Generator` as a small GitHub growth tool suite.
 - Consider extending the suite with `AI Commit Assistant` as the Git workflow layer.
 - Consider using `MCP Practice CN` as the education/onboarding layer for the Agent side.
+- Consider using `API Agent Builder` as the API integration layer for the Agent side.
 - Sync the profile repository README so it matches the current `35+` idea count truthfully.
 - Publish one Chinese post using this update as the weekly content hook.
 
