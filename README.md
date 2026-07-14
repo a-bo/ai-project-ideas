@@ -55,6 +55,7 @@
   - 深挖 `AI GitHub Profile Maker`，补充 schema、API、Prompt 和页面流转
   - 深挖 `AI README Generator`，补充 repo context schema、README 输出结构和生成流程
   - 深挖 `AI Commit Assistant`，补充 diff 分析、commit / PR / changelog 输出结构
+  - 深挖 `MCP Practice CN`，补充中文教程结构、示例路线和权限设计重点
   - 新增 7 月中文内容计划：[docs/content-plan-july-2026.md](docs/content-plan-july-2026.md)
   - 明确把它作为最适合做成真实 MVP 的旗舰 idea
 - 2026-07-07:

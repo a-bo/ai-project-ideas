@@ -12,19 +12,7 @@ Agent 类项目热度高，但容易撞车。更好的做法是选具体场景�
 
 面向中文开发者的 MCP 实战教程和可运行示例库。
 
-MVP:
-
-- 最小 MCP Server
-- 文件系统 MCP
-- HTTP API MCP
-- 数据库查询 MCP
-- MCP 权限和安全说明
-
-传播标题：
-
-```text
-从 0 写一个 MCP Server：中文开发者可运行教程
-```
+详情：[mcp-practice-cn.md](mcp-practice-cn.md)
 
 ## 3. AI Browser Task Assistant
 

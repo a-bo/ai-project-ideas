@@ -49,7 +49,7 @@
 | 项目 | 一句话 | 难度 |
 | --- | --- | --- |
 | [Agent Tools Lab](agent-tools-lab.md) | 讲清 Agent 工具调用、权限控制和 MCP 接入 | 中等 |
-| MCP Practice CN | 面向中文开发者的 MCP 实战教程和示例库 | 中等 |
+| [MCP Practice CN](mcp-practice-cn.md) | 面向中文开发者的 MCP 实战教程和示例库 | 中等 |
 | AI Browser Task Assistant | 自动执行网页任务的浏览器 Agent | 中等偏上 |
 | Local File Agent | 本地文件整理、检索和批处理 Agent | 中等 |
 | API Agent Builder | 根据 OpenAPI 文档生成可调用工具 | 中等偏上 |
