@@ -48,5 +48,5 @@
 
 - [ ] 把 `AI GitHub Profile Maker` 扩展成更完整的 MVP 指南
 - [ ] 继续补到 40+ ideas
-- [ ] 为 1 个新 idea 增加 prompt / schema / API 设计细节
-- [ ] 增加一份中文内容发布计划
+- [x] 为 1 个新 idea 增加 prompt / schema / API 设计细节
+- [x] 增加一份中文内容发布计划

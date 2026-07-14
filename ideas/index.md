@@ -11,8 +11,8 @@
 | [AI Code Reviewer](ai-code-reviewer.md) | 读取 diff / PR，生成代码审查报告 | 中等偏上 |
 | [AI OSS Issue Triage Copilot](ai-oss-issue-triage-copilot.md) | 自动分类 issue、识别重复问题并生成维护者回复 | 中等偏上 |
 | [AI API Changelog Translator](ai-api-changelog-translator.md) | 把 API 更新日志翻译成迁移指南和影响说明 | 中等 |
-| AI README Generator | 根据仓库代码自动生成高质量 README | 中等 |
-| AI Commit Assistant | 根据 diff 生成规范 Commit Message 和变更说明 | 简单 |
+| [AI README Generator](ai-readme-generator.md) | 根据仓库代码自动生成高质量 README | 中等 |
+| [AI Commit Assistant](ai-commit-assistant.md) | 根据 diff 生成规范 Commit Message 和变更说明 | 简单 |
 
 ## Job & Career
 

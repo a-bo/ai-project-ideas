@@ -51,6 +51,12 @@
 
 ## Weekly Updates
 
+- 2026-07-10:
+  - 深挖 `AI GitHub Profile Maker`，补充 schema、API、Prompt 和页面流转
+  - 深挖 `AI README Generator`，补充 repo context schema、README 输出结构和生成流程
+  - 深挖 `AI Commit Assistant`，补充 diff 分析、commit / PR / changelog 输出结构
+  - 新增 7 月中文内容计划：[docs/content-plan-july-2026.md](docs/content-plan-july-2026.md)
+  - 明确把它作为最适合做成真实 MVP 的旗舰 idea
 - 2026-07-07:
   - 新增 5 个详细 idea 页面
   - README 标题从 `100+` 调整为 `35+`
@@ -66,6 +72,7 @@
 - 难度：中等
 - 关键词：GitHub API、LLM、Profile README、个人品牌
 - 适合人群：开源作者、求职者、技术博主
+- 当前状态：已补充页面流转、结构化 schema、API 设计和 Prompt 模块
 - 详情：[ideas/ai-github-profile-maker.md](ideas/ai-github-profile-maker.md)
 
 ### 2. Repo Reader Agent
@@ -156,7 +163,9 @@
 
 - 继续把 `35+` ideas 扩展到 `50+`
 - 优先补深度，而不是只加标题
-- 从仓库中选 1 个项目做真实 MVP
+- 优先把 `AI GitHub Profile Maker` 推进成真实 MVP
+- 把 `AI README Generator` 补成第二个 GitHub 场景旗舰工具
+- 把 `AI Commit Assistant` 补成第三个可 CLI 化的 GitHub 工具
 - 每周至少沉淀 1 篇可外发的中文内容
 
 ## Star History

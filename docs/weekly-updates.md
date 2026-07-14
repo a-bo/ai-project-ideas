@@ -1,5 +1,31 @@
 # Weekly Updates
 
+## 2026-07-10
+
+### Expanded
+
+- Deepened `AI GitHub Profile Maker` from a short idea into a more buildable flagship spec.
+- Added page flow, API design, input/output schema, prompt modules, and evaluation metrics.
+- Deepened `AI README Generator` into a detailed developer-tool spec with repo context schema, API design, prompt modules, and README generation workflow.
+- Deepened `AI Commit Assistant` into a structured CLI-oriented spec with diff analysis, commit generation, PR body, and changelog outputs.
+- Added a July Chinese content plan to turn flagship ideas into weekly outward-facing posts.
+
+### Why it matters
+
+- This is the best candidate to turn from idea page into a real open-source MVP.
+- It also connects directly with GitHub growth, personal branding, and developer-tooling audiences.
+- `AI README Generator` strengthens the same GitHub-facing toolchain and gives the repo a second high-intent developer utility.
+- `AI Commit Assistant` adds a lighter-weight CLI entry point to the same GitHub developer workflow.
+- The content plan makes the repo easier to operate as a real growth system instead of a static idea list.
+
+### Next
+
+- Turn `AI GitHub Profile Maker` into an implementation roadmap or standalone repo draft.
+- Consider pairing `AI GitHub Profile Maker` and `AI README Generator` as a small GitHub growth tool suite.
+- Consider extending the suite with `AI Commit Assistant` as the Git workflow layer.
+- Sync the profile repository README so it matches the current `35+` idea count truthfully.
+- Publish one Chinese post using this update as the weekly content hook.
+
 ## 2026-07-07
 
 ### Added

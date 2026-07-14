@@ -24,37 +24,13 @@
 
 根据仓库代码、目录结构和 package/go.mod 等配置，自动生成高质量 README。
 
-MVP:
-
-- 输入本地路径或 GitHub 仓库地址
-- 分析目录结构和关键配置
-- 识别项目技术栈
-- 生成安装、启动、使用、部署说明
-- 输出 Markdown
-
-传播标题：
-
-```text
-我做了一个 AI README 生成器，开源项目再也不用空 README
-```
+详情：[ai-readme-generator.md](ai-readme-generator.md)
 
 ## 5. AI Commit Assistant
 
 根据 git diff 自动生成规范 Commit Message、变更摘要和 Release Note。
 
-MVP:
-
-- 读取 git diff
-- 支持 Conventional Commits
-- 支持中文 / 英文输出
-- 生成 PR 描述
-- 生成 changelog 片段
-
-传播标题：
-
-```text
-一个命令，让 AI 帮你写 Commit Message 和 PR 描述
-```
+详情：[ai-commit-assistant.md](ai-commit-assistant.md)
 
 ## 6. AI OSS Issue Triage Copilot
 
