@@ -46,7 +46,8 @@
 
 ## Current Weekly Focus
 
-- [ ] 把 `AI GitHub Profile Maker` 扩展成更完整的 MVP 指南
+- [x] 把 `AI GitHub Profile Maker` 扩展成更完整的 MVP 指南（已新增[数据契约与验收样例](ai-github-profile-maker-mvp-contract.md)）
 - [ ] 继续补到 40+ ideas
 - [x] 为 1 个新 idea 增加 prompt / schema / API 设计细节
 - [x] 增加一份中文内容发布计划
+- [ ] 把数据抓取、Schema 与 A01–A10 验收用例实现为可运行代码

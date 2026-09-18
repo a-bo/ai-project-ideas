@@ -1,5 +1,34 @@
 # Weekly Updates
 
+## 2026-09-18
+
+### Expanded
+
+- Added an implementation-oriented [MVP data contract and acceptance fixtures](ai-github-profile-maker-mvp-contract.md) for `AI GitHub Profile Maker`.
+- Defined the public GitHub API scope, request budget, normalized snapshot, evidence-linked output, deterministic repo prefilter, conflict handling, and prompt-injection boundary.
+- Added 10 acceptance cases covering pagination, missing data, rate limits, source conflicts, pinned-data gaps, untrusted README content, and invalid model JSON.
+- Added a [Chinese short post](../content/2026-09-18-github-profile-maker-fact-layer.md) and [content index](../content/README.md).
+
+### Weekly snapshot
+
+- `ai-project-ideas`: 0 stars, 0 forks, 3 open issues, 0 open pull requests.
+- `awesome-embodied-ai-cn`: 0 stars, 0 forks, 2 open issues, 0 open pull requests.
+- Profile repository: 0 stars, 0 forks, 0 open issues, 0 open pull requests.
+- Star delta since the 2026-09-11 snapshot: 0 across all three repositories.
+- Snapshot source: public GitHub API, checked on 2026-09-18.
+
+### Evidence boundary
+
+- This update is a documentation design, not a runnable implementation.
+- No application, automated test, GitHub API client, model call, or deployment was run.
+- Public `a-bo` data was checked to create a dated example; dynamic values are not frozen test expectations.
+
+### Next
+
+- Implement the public-data collector and normalized schema in a standalone MVP repository.
+- Convert A01–A10 into fixtures and automated tests before generating marketing claims.
+- Reconcile the repository description (`100+`) with the README/index (`35+`) through GitHub repository settings.
+
 ## 2026-07-10
 
 ### Expanded
