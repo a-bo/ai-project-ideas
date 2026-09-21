@@ -229,7 +229,7 @@ github-profile-maker-ai
 - 来源数字冲突和 Prompt 注入处理
 - 10 个最小验收 fixture 与完成定义
 
-当前仍是设计稿；没有可运行代码、测试结果或线上 Demo。
+事实层已提供[零依赖可运行示例](../examples/github-profile-fact-layer/README.md)：支持公开数据抓取、仓库分页、README 预筛选、冲突检测与 10 个自动化测试。它尚未包含 LLM、页面、缓存、GraphQL Pinned 查询、部署或 GitHub 写入，因此不能称为完整 MVP。
 
 ## 评估指标
 

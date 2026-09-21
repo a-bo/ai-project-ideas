@@ -1,0 +1,12 @@
+[
+  {"id":"A01","scenario":"普通公开用户","status":"covered","test":"collects a normal public profile"},
+  {"id":"A02","scenario":"用户不存在","status":"covered","test":"returns user_not_found without repo requests"},
+  {"id":"A03","scenario":"135 个公开仓库","status":"covered","test":"paginates beyond 100 repositories"},
+  {"id":"A04","scenario":"Bio 为空","status":"covered","test":"preserves a missing bio as null"},
+  {"id":"A05","scenario":"README 缺失","status":"covered","test":"degrades when a README is missing"},
+  {"id":"A06","scenario":"描述与 README 数量冲突","status":"covered","test":"detects conflicting N+ claims"},
+  {"id":"A07","scenario":"README 含提示注入文本","status":"covered","test":"records prompt injection as a security event"},
+  {"id":"A08","scenario":"模型输出缺字段","status":"deferred","reason":"模型生成层尚未实现"},
+  {"id":"A09","scenario":"API 限流","status":"covered","test":"surfaces rate-limit metadata without retrying"},
+  {"id":"A10","scenario":"Pinned 获取失败","status":"covered","test":"marks pinned data unavailable instead of guessing"}
+]

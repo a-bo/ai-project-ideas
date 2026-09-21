@@ -4,4 +4,5 @@
 
 | 日期 | 主题 | 对应成果 |
 | --- | --- | --- |
+| 2026-09-21 | [把 AI 项目方案变成代码，我先写了 10 个不会“说漂亮话”的测试](2026-09-21-github-profile-maker-fact-layer-code.md) | [可运行事实层与测试](../examples/github-profile-fact-layer/README.md) |
 | 2026-09-18 | [做 AI GitHub 主页工具，先解决“事实层”](2026-09-18-github-profile-maker-fact-layer.md) | [MVP 数据契约与验收样例](../docs/ai-github-profile-maker-mvp-contract.md) |

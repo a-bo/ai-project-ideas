@@ -28,6 +28,7 @@
 4. 如果你想做更偏工程化的项目，优先看 Developer Tools 和 AI Agent。
 5. 如果你想做更容易上线验证的项目，优先看 Productivity 和 Business。
 6. 想看 idea 如何落到工程契约，可直接读 [AI GitHub Profile Maker MVP 数据契约](docs/ai-github-profile-maker-mvp-contract.md)。
+7. 想从代码开始，可运行零依赖的 [GitHub Profile Fact Layer](examples/github-profile-fact-layer/README.md)。
 
 ## 适合谁
 
@@ -52,6 +53,11 @@
 
 ## Weekly Updates
 
+- 2026-09-21:
+  - 把 `AI GitHub Profile Maker` 的第一段实现为[可运行事实层](examples/github-profile-fact-layer/README.md)
+  - 支持公开资料、仓库分页、README 预筛选、限流分类、提示注入记录和数量冲突检测
+  - 10 个 Node.js 自动化测试全部通过；真实只读运行识别到仓库描述 `100+` 与 README `35+` 的冲突
+  - 新增[中文短帖](content/2026-09-21-github-profile-maker-fact-layer-code.md)；当前仍无模型、页面、部署或 GitHub 写入能力
 - 2026-09-18:
   - 为 `AI GitHub Profile Maker` 新增 [MVP 数据契约与验收样例](docs/ai-github-profile-maker-mvp-contract.md)
   - 补充官方 API 范围、请求预算、事实/推断/建议分层、冲突处理和 10 个验收 fixture
@@ -80,7 +86,7 @@
 - 难度：中等
 - 关键词：GitHub API、LLM、Profile README、个人品牌
 - 适合人群：开源作者、求职者、技术博主
-- 当前状态：已补充页面流转、结构化 schema、API 设计、Prompt 模块，以及 [MVP 数据契约与验收样例](docs/ai-github-profile-maker-mvp-contract.md)；尚未实现代码
+- 当前状态：已补充页面流转、结构化 schema、API 设计、Prompt 模块及 [MVP 数据契约](docs/ai-github-profile-maker-mvp-contract.md)，并提供[可运行事实层](examples/github-profile-fact-layer/README.md)；完整应用尚未实现
 - 详情：[ideas/ai-github-profile-maker.md](ideas/ai-github-profile-maker.md)
 
 ### 2. Repo Reader Agent
@@ -171,7 +177,7 @@
 
 - 继续把 `35+` ideas 扩展到 `50+`
 - 优先补深度，而不是只加标题
-- 优先把 `AI GitHub Profile Maker` 推进成真实 MVP
+- 优先把 `AI GitHub Profile Maker` 从可运行事实层推进到带 Schema 校验的生成层
 - 把 `AI README Generator` 补成第二个 GitHub 场景旗舰工具
 - 把 `AI Commit Assistant` 补成第三个可 CLI 化的 GitHub 工具
 - 每周至少沉淀 1 篇可外发的中文内容

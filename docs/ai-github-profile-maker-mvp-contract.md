@@ -1,8 +1,18 @@
 # AI GitHub Profile Maker：MVP 数据契约与验收样例
 
-> 状态：产品与工程设计稿，尚无可运行实现。本文不代表 API、模型调用或页面已经开发完成。
+> 状态：工程契约；已实现[零依赖事实层示例](../examples/github-profile-fact-layer/README.md)，模型、页面、缓存、GraphQL Pinned 查询和部署仍未实现。
 
 这份文档把 [AI GitHub Profile Maker](../ideas/ai-github-profile-maker.md) 从功能清单推进到可开工的 MVP 契约：第一版该读哪些公开数据、如何区分事实与推断、遇到冲突如何降级，以及开发完成后怎样验收。
+
+## 0. 当前实现证据（2026-09-21）
+
+- 代码：[GitHub Profile Fact Layer](../examples/github-profile-fact-layer/README.md)
+- 环境：Node.js 20.20.2；实现本身要求 Node.js 18+
+- 自动化测试：10/10 通过，覆盖 A01–A07、A09、A10 及非法用户名提前失败
+- 真实只读运行：成功读取 `a-bo` 公开资料和仓库，检测到 `ai-project-ideas` 描述 `100+` 与 README 首屏 `35+` 的冲突
+- 未完成：A08 模型 JSON 校验、生成层、页面、缓存、部署、Pinned GraphQL 和 GitHub 写入
+
+测试通过只证明当前事实层在这些 fixture 和一次公开账号运行中的行为，不代表完整应用已完成，也不代表生成效果或增长指标得到验证。
 
 ## 1. MVP 边界
 

@@ -1,5 +1,41 @@
 # Weekly Updates
 
+## 2026-09-21
+
+### Shipped
+
+- Added a runnable, dependency-free [GitHub Profile Fact Layer](../examples/github-profile-fact-layer/README.md) for Node.js 18+.
+- Implemented username validation, public profile collection, repository pagination, deterministic README preselection, normalized facts, rate-limit errors, conflict detection, and prompt-injection event recording.
+- Added an explicit A01–A10 [acceptance matrix](../examples/github-profile-fact-layer/fixtures/acceptance-matrix.json): A01–A07, A09, and A10 are covered; A08 remains deferred because the model layer does not exist yet.
+- Added a [Chinese short post](../content/2026-09-21-github-profile-maker-fact-layer-code.md) based on the shipped code and observed behavior.
+
+### Verification
+
+- `npm test`: 10 tests passed on Node.js 20.20.2.
+- `git diff --check`: passed before publication.
+- A real read-only run against public `a-bo` data returned 46 public repositories and 7 followers at observation time.
+- The live run detected the existing `ai-project-ideas` repository-description `100+` versus README-lead `35+` conflict and returned `omit_from_generated_copy`.
+
+### Weekly snapshot
+
+- `ai-project-ideas`: 0 stars, 0 forks, 3 open issues, 0 open pull requests.
+- `awesome-embodied-ai-cn`: 0 stars, 0 forks, 2 open issues, 0 open pull requests.
+- Profile repository: 0 stars, 0 forks, 0 open issues, 0 open pull requests.
+- Star delta since the 2026-09-18 snapshot: 0 across all three repositories.
+- Snapshot source: public GitHub API, checked on 2026-09-21.
+
+### Evidence boundary
+
+- This is a runnable collection layer, not the complete Profile Maker application.
+- No LLM call, generated Profile README, web UI, cache, deployment, authenticated Pinned query, or GitHub write was implemented.
+- The live command read public GitHub data only; it did not change the inspected account.
+
+### Next
+
+- Add JSON Schema validation for facts and generated output.
+- Implement A08 with one model-output retry and a deterministic fallback.
+- Refresh GitHub CLI authentication, then change the repository description from `100+` to the verified current `35+` claim.
+
 ## 2026-09-18
 
 ### Expanded
