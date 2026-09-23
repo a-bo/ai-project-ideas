@@ -1,5 +1,28 @@
 # Weekly Updates
 
+## 2026-09-23
+
+### Shipped
+
+- Added a dependency-free [generated-output validation boundary](../examples/github-profile-fact-layer/src/output-validator.mjs) to the runnable Profile Maker fact-layer example.
+- A08 now checks a narrow JSON Schema contract: allowed fields, required evidence IDs, confidence values, unknown-evidence rejection, exactly one retry, and a deterministic manual-template fallback after a second invalid response.
+- Added a [Chinese short post](../content/2026-09-23-profile-maker-schema-boundary.md) based on this code and its test scenarios.
+
+### Verification
+
+- `npm test`: 13 tests passed locally, including the two A08 paths and rejection of unknown evidence / extra fields.
+- The validation module makes no network or model-provider request; tests use injected generator functions so the retry count is observable.
+
+### Evidence boundary
+
+- This is a runnable output-validation boundary, not an LLM integration or a complete Profile Maker MVP.
+- No model API call, generated Profile README, web UI, cache, deployment, GraphQL Pinned query, or GitHub write was implemented by the example.
+
+### Next
+
+- Choose a model adapter, preserve its raw validation errors, and pass only schema-valid results to a rendering layer.
+- Refresh GitHub CLI authentication, then reconcile the repository description from `100+` to the verified current `35+` claim.
+
 ## 2026-09-21
 
 ### Shipped

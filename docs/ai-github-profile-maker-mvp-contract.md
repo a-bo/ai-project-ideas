@@ -8,9 +8,9 @@
 
 - 代码：[GitHub Profile Fact Layer](../examples/github-profile-fact-layer/README.md)
 - 环境：Node.js 20.20.2；实现本身要求 Node.js 18+
-- 自动化测试：10/10 通过，覆盖 A01–A07、A09、A10 及非法用户名提前失败
+- 自动化测试：13 个测试通过，覆盖 A01–A10、非法用户名提前失败与生成结果的未知证据/额外字段拒绝
 - 真实只读运行：成功读取 `a-bo` 公开资料和仓库，检测到 `ai-project-ideas` 描述 `100+` 与 README 首屏 `35+` 的冲突
-- 未完成：A08 模型 JSON 校验、生成层、页面、缓存、部署、Pinned GraphQL 和 GitHub 写入
+- 已完成边界：A08 的 JSON Schema 校验、单次重试与确定性降级；未完成模型供应商接入、生成层、页面、缓存、部署、Pinned GraphQL 和 GitHub 写入
 
 测试通过只证明当前事实层在这些 fixture 和一次公开账号运行中的行为，不代表完整应用已完成，也不代表生成效果或增长指标得到验证。
 
@@ -251,7 +251,7 @@ Star、Fork 只作为同分时的辅助信号，不能让成熟但无关的仓�
 2. 固化归一化 Schema 与 10 个 fixture 测试。
 3. 实现确定性预筛选和冲突检测。
 4. 接入模型，只生成 `inferences` 与 `recommendations`。
-5. 增加 JSON Schema 校验和 Prompt 注入测试。
+5. 增加 JSON Schema 校验和 Prompt 注入测试。（输出边界已实现；真实模型供应商接入仍未开始。）
 6. 最后做结果页和 Markdown 导出，再用真实公开账号人工验收。
 
 这条顺序的重点是：先让事实层稳定，再讨论文案是否“好看”。

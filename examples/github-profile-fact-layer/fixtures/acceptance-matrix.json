@@ -6,7 +6,7 @@
   {"id":"A05","scenario":"README 缺失","status":"covered","test":"degrades when a README is missing"},
   {"id":"A06","scenario":"描述与 README 数量冲突","status":"covered","test":"detects conflicting N+ claims"},
   {"id":"A07","scenario":"README 含提示注入文本","status":"covered","test":"records prompt injection as a security event"},
-  {"id":"A08","scenario":"模型输出缺字段","status":"deferred","reason":"模型生成层尚未实现"},
+  {"id":"A08","scenario":"模型输出缺字段","status":"covered","test":"retries one invalid generated output, then accepts schema-valid evidence; falls back after exactly two invalid generated outputs","boundary":"No provider call is included; this covers only the injected model-output validation boundary."},
   {"id":"A09","scenario":"API 限流","status":"covered","test":"surfaces rate-limit metadata without retrying"},
   {"id":"A10","scenario":"Pinned 获取失败","status":"covered","test":"marks pinned data unavailable instead of guessing"}
 ]

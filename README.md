@@ -53,6 +53,10 @@
 
 ## Weekly Updates
 
+- 2026-09-23:
+  - 为 `AI GitHub Profile Maker` 的生成边界新增[输出 JSON Schema 校验](examples/github-profile-fact-layer/src/output-validator.mjs)
+  - A08 现覆盖“首次无效后重试一次”和“两次无效后降级”；未知证据和 Schema 外字段会被拒绝
+  - 新增[中文短帖](content/2026-09-23-profile-maker-schema-boundary.md)；此实现没有接入模型供应商、生成 README 或部署
 - 2026-09-21:
   - 把 `AI GitHub Profile Maker` 的第一段实现为[可运行事实层](examples/github-profile-fact-layer/README.md)
   - 支持公开资料、仓库分页、README 预筛选、限流分类、提示注入记录和数量冲突检测

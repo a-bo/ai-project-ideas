@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { collectProfile, GitHubApiError } from "../src/collector.mjs";
+import { resolveGeneratedOutput, validateGeneratedOutput } from "../src/output-validator.mjs";
 
 const observedAt = "2026-09-21T09:30:00.000Z";
 
@@ -144,6 +145,47 @@ test("A10 marks pinned data unavailable instead of guessing", async () => {
   const result = await collectProfile({ username: "a-bo", fetchImpl, observedAt });
   assert.equal(result.collection_limits.pinned_items_available, false);
   assert.match(result.collection_limits.pinned_items_note, /no current pins were inferred/i);
+});
+
+test("A08 retries one invalid generated output, then accepts schema-valid evidence", async () => {
+  let calls = 0;
+  const result = await resolveGeneratedOutput({
+    knownEvidenceIds: ["repo.ai-project-ideas", "conflict.plus_count.ai-project-ideas"],
+    generate: async () => {
+      calls += 1;
+      return calls === 1
+        ? { inferences: [{ id: "bad", text: "missing evidence", confidence: "medium" }], recommendations: [] }
+        : {
+            inferences: [{ id: "positioning", text: "内容聚焦 AI 项目。", evidence_ids: ["repo.ai-project-ideas"], confidence: "medium" }],
+            recommendations: [{ id: "sync-copy", text: "统一数量表述。", because: ["conflict.plus_count.ai-project-ideas"] }]
+          };
+    }
+  });
+  assert.equal(calls, 2);
+  assert.equal(result.status, "valid");
+  assert.equal(result.attempts[0].valid, false);
+  assert.equal(result.attempts[1].valid, true);
+});
+
+test("A08 falls back after exactly two invalid generated outputs", async () => {
+  let calls = 0;
+  const result = await resolveGeneratedOutput({
+    generate: async () => { calls += 1; return { unexpected: true }; }
+  });
+  assert.equal(calls, 2);
+  assert.equal(result.status, "fallback");
+  assert.match(result.output.manual_template, /事实快照/);
+});
+
+test("generated output rejects unknown evidence and extra fields", () => {
+  const result = validateGeneratedOutput({
+    inferences: [{ id: "x", text: "x", evidence_ids: ["unknown"], confidence: "high" }],
+    recommendations: [],
+    unsafe: true
+  }, { knownEvidenceIds: ["known"] });
+  assert.equal(result.valid, false);
+  assert.match(result.errors.join("\n"), /unexpected field/);
+  assert.match(result.errors.join("\n"), /unknown evidence/);
 });
 
 test("invalid usernames fail before network access", async () => {
