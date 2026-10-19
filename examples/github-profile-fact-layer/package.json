@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "collect": "node src/cli.mjs",
+    "render:demo": "node src/render-demo.mjs",
     "test": "node --test"
   },
   "engines": {
