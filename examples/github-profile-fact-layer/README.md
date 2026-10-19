@@ -12,6 +12,7 @@
 - 检测仓库描述与 README 中的 `N+` 数量冲突，建议生成层省略争议数字。
 - 明确标记 Pinned 数据未获取，不从仓库顺序猜测当前 Pinned。
 - 提供无依赖的生成输出 JSON Schema 校验边界：缺字段、额外字段或未知证据都会拒绝；首次失败只允许重试一次，第二次失败返回事实快照对应的人工模板。
+- 把通过 Schema 的定位推断和仓库候选渲染为确定性 Profile Markdown 草稿；有数量冲突的仓库描述会被省略，Pinned 未核验状态和发布前建议会保留在 review 结果中。
 
 ## 运行
 
@@ -21,6 +22,8 @@
 cd examples/github-profile-fact-layer
 npm test
 node src/cli.mjs a-bo
+npm run render:demo
+npm run render:demo -- --review
 ```
 
 可选使用 `GITHUB_TOKEN` 提高 GitHub API 请求限额：
@@ -43,11 +46,11 @@ GITHUB_TOKEN=your_token node src/cli.mjs a-bo
 - `warnings`：README 缺失等可降级问题。
 - `collection_limits`：本次请求范围和 Pinned 可用状态。
 
-当前不包含 LLM、定位文案、README 生成、GraphQL Pinned 查询、缓存、网页界面或部署。因此这只是可运行的事实层，不是完整 Profile Maker MVP。
+当前可以渲染一份基于 fixture 的 Profile Markdown 草稿和发布前检查，但不包含真实 LLM、GraphQL Pinned 查询、缓存、网页界面或部署。因此这是可运行的事实层与导出边界，不是完整 Profile Maker MVP。
 
 ## 验收覆盖
 
-`fixtures/acceptance-matrix.json` 映射原设计中的 A01–A10。自动化测试覆盖 A01–A10：A08 验证的是模型适配边界，不会发起真实模型请求。它覆盖“第一次不合法、第二次合格”与“两次不合法后降级”两条路径。
+`fixtures/acceptance-matrix.json` 映射原设计中的 A01–A10。自动化测试覆盖 A01–A10：A08 验证的是模型适配边界，不会发起真实模型请求。另有 4 个渲染测试覆盖可审计草稿、冲突描述省略、Pinned 未核验声明和未知证据拒绝。
 
 ## 已知限制
 
