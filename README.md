@@ -54,6 +54,11 @@
 
 ## Weekly Updates
 
+- 2026-10-26:
+  - 新增完整项目方案 [AI Dependency Upgrade Navigator](ideas/ai-dependency-upgrade-navigator.md)：以证据、未知项、验证清单和回滚单准备一次依赖升级
+  - 覆盖用户痛点、只读 MVP 边界、模块、JSON 数据结构、7 步实现顺序和 A01–A10 验收标准
+  - 新增[中文短帖](content/2026-10-26-dependency-upgrade-navigator.md)；该方案不是已运行工具，未执行依赖安装、测试、CI、代码修改或 PR 创建
+
 - 2026-09-28:
   - 新增[确定性 Profile Markdown 渲染层](examples/github-profile-fact-layer/src/profile-renderer.mjs)，只接收证据 ID 合格的结构化输出
   - 已知数量冲突会省略仓库描述，Pinned 未核验状态与发布前建议会进入独立 review
