@@ -1,3 +1,21 @@
+## 2026-10-26
+
+### Shipped
+
+- Added the complete [AI Dependency Upgrade Navigator](../ideas/ai-dependency-upgrade-navigator.md) project plan and its [Chinese short post](../content/2026-10-26-dependency-upgrade-navigator.md).
+- The planned MVP is read-only: it normalizes upgrade intent, records manifest/lock/CI/use-site evidence, labels source gaps, renders a reviewable upgrade brief, and accepts manually imported command results.
+- Defined ten acceptance scenarios (A01–A10), including missing lockfiles, unavailable official release notes, unrun tests, failed test-log import, and untrusted README text.
+
+### Evidence boundary
+
+- This is a design and implementation plan, not a working upgrade tool.
+- No dependency installation, lockfile update, test, CI run, source-code change, pull request, or compatibility claim was performed.
+
+### Next
+
+- Implement offline A01–A10 fixtures and JSON validation before connecting to a real repository scanner.
+- Keep execution, code changes, and merge approval outside the planning workflow.
+
 # Weekly Updates
 
 ## 2026-09-23
