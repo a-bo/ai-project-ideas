@@ -43,3 +43,9 @@
 把 API 更新日志自动翻译成开发者能直接执行的升级说明、风险提醒和迁移步骤。
 
 详情：[ai-api-changelog-translator.md](ai-api-changelog-translator.md)
+
+## 8. AI Dependency Upgrade Navigator
+
+把依赖升级拆成可审计的证据、待确认项、验证清单和回滚单；MVP 只读，不自动修改依赖或代码。
+
+详情：[ai-dependency-upgrade-navigator.md](ai-dependency-upgrade-navigator.md)
