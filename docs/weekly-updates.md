@@ -1,3 +1,32 @@
+## 2026-10-30
+
+### Shipped
+
+- Added the dependency-free [upgrade evidence record validator](../docs/dependency-upgrade-navigator-record-validator.md), its synthetic fixture, and ten acceptance tests for the [AI Dependency Upgrade Navigator](../ideas/ai-dependency-upgrade-navigator.md).
+- The validator enforces a narrow npm single-package record: evidence IDs, relative paths, SHA-256 format, evidence-linked claims, and truthful run-result fields.
+- Added a [Chinese short post](../content/2026-10-30-dependency-evidence-validator.md) based on the executed offline tests.
+
+### Verification
+
+- node test.mjs: 10 acceptance tests passed locally on the included synthetic fixture.
+- The fixture is intentionally needs_human_review and keeps npm test as not_run.
+
+### Evidence boundary
+
+- No real repository was scanned; no package was installed, changed, tested, committed, or submitted as a pull request.
+- Passing this validator means only that a record matches the documented structural contract, not that an upgrade is compatible or ready to merge.
+
+### Weekly snapshot
+
+- ai-project-ideas: 1 star, 0 forks, 3 open issues, 0 open pull requests.
+- awesome-embodied-ai-cn: 3 stars, 0 forks, 2 open issues, 0 open pull requests.
+- Snapshot source: GitHub connector, checked 2026-10-30. Star counters reuse the latest verified 2026-10-23 snapshot because the current connector listing did not return repository counters.
+
+### Next
+
+- Add fixed collector fixtures before connecting a constrained repository reader to this validator.
+- Keep installation, tests, commits, and merge approval as explicit human-controlled actions.
+
 ## 2026-10-26
 
 ### Shipped
