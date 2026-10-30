@@ -53,6 +53,10 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-10-30:
+  - 为 [AI Dependency Upgrade Navigator](examples/dependency-upgrade-navigator/README.md) 新增可运行的离线升级证据记录校验器
+  - 合成记录覆盖证据回链、相对路径、未运行检查和退出码一致性；10 个 Node.js 验收测试已通过
+  - 新增[中文短帖](content/2026-10-30-dependency-evidence-validator.md)；未扫描、安装、更新任何真实依赖，也未运行真实 CI
 
 - 2026-10-26:
   - 新增完整项目方案 [AI Dependency Upgrade Navigator](ideas/ai-dependency-upgrade-navigator.md)：以证据、未知项、验证清单和回滚单准备一次依赖升级
