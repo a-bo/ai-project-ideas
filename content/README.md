@@ -4,6 +4,7 @@
 
 | 日期 | 主题 | 对应成果 |
 | --- | --- | --- |
+| 2026-10-30 | [依赖升级前，先验证“证据记录”而不是相信一段结论](2026-10-30-dependency-evidence-validator.md) | [升级证据记录校验器](../docs/dependency-upgrade-navigator-record-validator.md) |
 | 2026-10-26 | [别让 AI 直接 bump 版本：依赖升级助手该先交出哪些证据？](2026-10-26-dependency-upgrade-navigator.md) | [AI Dependency Upgrade Navigator 项目方案](../ideas/ai-dependency-upgrade-navigator.md) |
 | 2026-09-28 | [AI 输出通过 Schema 后，为什么还不能直接发布 README？](2026-09-28-profile-maker-markdown-review.md) | [确定性 Profile Markdown 渲染与发布前检查](../examples/github-profile-fact-layer/src/profile-renderer.mjs) |
 | 2026-09-23 | [不接模型，先把 AI 输出关进 Schema](2026-09-23-profile-maker-schema-boundary.md) | [A08 输出校验、单次重试与降级](../examples/github-profile-fact-layer/src/output-validator.mjs) |
