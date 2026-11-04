@@ -49,3 +49,9 @@
 把依赖升级拆成可审计的证据、待确认项、验证清单和回滚单；MVP 只读，不自动修改依赖或代码。
 
 详情：[ai-dependency-upgrade-navigator.md](ai-dependency-upgrade-navigator.md)
+
+## 9. AI CI Failure Evidence Navigator
+
+把导入的 CI 运行、job/step 摘要和日志片段整理成可审计的事实、假设与人工动作；MVP 不自动重跑、不改代码。
+
+详情：[ai-ci-failure-evidence-navigator.md](ai-ci-failure-evidence-navigator.md)
