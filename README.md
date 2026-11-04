@@ -53,6 +53,11 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-04:
+  - 新增完整项目方案 [AI CI Failure Evidence Navigator](ideas/ai-ci-failure-evidence-navigator.md)：把导入的 CI 失败信息分成可追溯事实、待确认假设与人工检查单
+  - 覆盖只读 MVP 边界、模块、JSON 数据结构、7 步实现顺序和 A01–A10 验收标准；默认不自动重跑、不读密钥、不改代码
+  - 新增[中文短帖](content/2026-11-04-ci-failure-evidence-navigator.md)；本次是设计文档，未连接 GitHub、导入真实日志、运行 CI 或验证修复
+
 - 2026-10-30:
   - 为 [AI Dependency Upgrade Navigator](examples/dependency-upgrade-navigator/README.md) 新增可运行的离线升级证据记录校验器
   - 合成记录覆盖证据回链、相对路径、未运行检查和退出码一致性；10 个 Node.js 验收测试已通过
