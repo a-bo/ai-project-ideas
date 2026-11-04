@@ -1,3 +1,27 @@
+## 2026-11-04
+
+### Shipped
+
+- Added the complete [AI CI Failure Evidence Navigator](../ideas/ai-ci-failure-evidence-navigator.md) project plan and its [Chinese short post](../content/2026-11-04-ci-failure-evidence-navigator.md).
+- The proposed MVP accepts explicitly imported CI run/job/step summaries and log excerpts, then separates evidence-linked observations, hypotheses, and manual actions.
+- Defined A01–A10 for same-run provenance, truncation and cancellation handling, sensitive-text redaction, and no-network synthetic fixtures.
+
+### Evidence boundary
+
+- This is a design document, not a connected CI assistant.
+- No GitHub run or log was imported, no CI was run or rerun, and no source code, issue, pull request, or workflow was changed.
+
+### Weekly snapshot
+
+- ai-project-ideas: 3 open issues, 0 open pull requests.
+- awesome-embodied-ai-cn: 2 open issues, 0 open pull requests.
+- Snapshot source: GitHub connector, checked 2026-11-04. This connector response did not expose star or fork counters, so no new numerical star claim is made.
+
+### Next
+
+- Implement synthetic A01–A10 fixtures and an offline validator before considering a read-only CI provider importer.
+- Preserve explicit human approval for all reruns, source changes, comments, and merges.
+
 ## 2026-10-30
 
 ### Shipped
