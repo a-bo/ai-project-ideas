@@ -13,6 +13,7 @@
 | [AI API Changelog Translator](ai-api-changelog-translator.md) | 把 API 更新日志翻译成迁移指南和影响说明 | 中等 |
 | [AI Dependency Upgrade Navigator](ai-dependency-upgrade-navigator.md) | 用证据、未知项、验证清单和回滚单准备一次依赖升级 | 中等 |
 | [AI CI Failure Evidence Navigator](ai-ci-failure-evidence-navigator.md) | 把 CI 失败整理成证据、未知项与人工检查单 | 中等 |
+| [AI API Contract Drift Reviewer](ai-api-contract-drift-reviewer.md) | 用可回查的契约变化与人工复查项准备 API 升级 | 中等 |
 | [AI README Generator](ai-readme-generator.md) | 根据仓库代码自动生成高质量 README | 中等 |
 | [AI Commit Assistant](ai-commit-assistant.md) | 根据 diff 生成规范 Commit Message 和变更说明 | 简单 |
 
