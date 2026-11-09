@@ -53,6 +53,11 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-09:
+  - 新增完整项目方案 [AI API Contract Drift Reviewer](ideas/ai-api-contract-drift-reviewer.md)：将两份操作者导入的 API 契约与可选调用清单分成可定位观察、待人工复查项和覆盖未知项
+  - 覆盖只读 MVP 边界、模块、JSON 数据结构、8 步实现顺序与 A01–A10 验收标准；默认不拉取私有仓库、不运行 API、不改 SDK 或代码、不宣布兼容性
+  - 新增[中文短帖](content/2026-11-09-api-contract-drift-reviewer.md)；本次是设计文档，未导入真实契约、扫描仓库、运行请求、生成代码或验证兼容性
+
 - 2026-11-04:
   - 新增完整项目方案 [AI CI Failure Evidence Navigator](ideas/ai-ci-failure-evidence-navigator.md)：把导入的 CI 失败信息分成可追溯事实、待确认假设与人工检查单
   - 覆盖只读 MVP 边界、模块、JSON 数据结构、7 步实现顺序和 A01–A10 验收标准；默认不自动重跑、不读密钥、不改代码
