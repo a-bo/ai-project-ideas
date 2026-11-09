@@ -71,6 +71,26 @@
 
 # Weekly Updates
 
+## 2026-11-09
+
+### Shipped
+
+- Added the complete [AI API Contract Drift Reviewer](../ideas/ai-api-contract-drift-reviewer.md) project plan and a [Chinese short post](../content/2026-11-09-api-contract-drift-reviewer.md).
+- Defined an imported-data-only MVP that separates pointer-backed contract observations, human-review questions, coverage unknowns, and manual actions.
+- Added a normalized record shape, six MVP modules, eight implementation steps, and A01–A10 acceptance conditions for OpenAPI 3.1 JSON as the first planned format.
+
+### Evidence boundary
+
+- This is a documentation plan, not a runnable API diff tool.
+- No real contract was imported; no repository was scanned; no API was called; no SDK or code was changed; no compatibility outcome was verified.
+- A future model adapter may draft only from existing evidence and cannot promote an unlinked claim into the observed layer.
+
+### Next
+
+- Implement synthetic OpenAPI fixtures and Schema validation before accepting real local inputs.
+- Keep source imports, test execution, code changes, and merge approval explicitly human-controlled.
+
+
 ## 2026-09-23
 
 ### Shipped
