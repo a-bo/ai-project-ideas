@@ -55,3 +55,9 @@
 把导入的 CI 运行、job/step 摘要和日志片段整理成可审计的事实、假设与人工动作；MVP 不自动重跑、不改代码。
 
 详情：[ai-ci-failure-evidence-navigator.md](ai-ci-failure-evidence-navigator.md)
+
+## 10. AI API Contract Drift Reviewer
+
+把两份由操作者导入的 API 契约和可选调用清单拆成可定位的观察、待人工复查项与覆盖未知项；MVP 不拉取私有数据、不改代码、不宣布兼容性。
+
+详情：[ai-api-contract-drift-reviewer.md](ai-api-contract-drift-reviewer.md)
