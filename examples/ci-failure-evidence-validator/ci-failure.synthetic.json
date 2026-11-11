@@ -1,0 +1,14 @@
+{
+  "incident_id": "ci-2026-11-11-synthetic",
+  "run": {"provider": "github_actions", "run_id": "synthetic-42", "outcome": "failure"},
+  "evidence": [
+    {"id": "E01", "run_id": "synthetic-42", "source": "operator-imported step summary", "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef", "truncated": false, "text": "npm test exited with code 1"}
+  ],
+  "claims": [
+    {"layer": "observed", "text": "The imported test step reports exit code 1.", "evidence_ids": ["E01"]},
+    {"layer": "hypothesis", "text": "The test assertion needs human review.", "evidence_ids": ["E01"], "needs_human_confirmation": true}
+  ],
+  "actions": [
+    {"kind": "manual_check", "text": "Review the documented test command and the full log locally."}
+  ]
+}
