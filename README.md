@@ -53,6 +53,9 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-11:
+  - [CI Failure Evidence Navigator 离线校验器](docs/ci-failure-evidence-validator.md) 已提供零依赖 Node.js 合成事件校验、fixture 与 10 个验收测试；拒绝跨 run 混入、截断日志根因断言、疑似 token、无效 SHA 与自动 rerun/merge 文本。
+  - [中文短帖](content/2026-11-11-ci-failure-evidence-validator.md)：CI 失败助手先交证据链，再谈排障建议。
 - 2026-11-09:
   - 新增完整项目方案 [AI API Contract Drift Reviewer](ideas/ai-api-contract-drift-reviewer.md)：将两份操作者导入的 API 契约与可选调用清单分成可定位观察、待人工复查项和覆盖未知项
   - 覆盖只读 MVP 边界、模块、JSON 数据结构、8 步实现顺序与 A01–A10 验收标准；默认不拉取私有仓库、不运行 API、不改 SDK 或代码、不宣布兼容性
