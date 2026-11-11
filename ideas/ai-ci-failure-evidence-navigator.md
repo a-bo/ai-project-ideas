@@ -90,6 +90,12 @@ MVP 只读取用户明确导入的运行元数据、选定 job/step 摘要、日
 - A09：导出的 Markdown 可追到 incident、run 与 evidence。
 - A10：所有测试只用合成 fixture，不访问真实仓库或触发 CI。
 
+## 当前离线实现
+
+已提供零依赖 Node.js 20+ [CI 证据校验器](../examples/ci-failure-evidence-validator/README.md)、合成 incident fixture 与 10 个验收测试。它强制同一 run、来源与 SHA-256、证据回链、假设人工确认，并拒绝跨 run 混入、疑似 token、截断证据的根因断言及自动 rerun/merge 文本。
+
+已执行的测试仅针对合成 fixture；通过不表示真实 CI 已导入、根因已定位、修复已验证，或任何远程动作被授权。
+
 ## 可扩展方向
 
 - 可选的只读 GitHub App 导入器与速率限制记录
