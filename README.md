@@ -53,6 +53,11 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-18:
+  - 新增完整项目方案 [AI Feature Flag Rollout Reviewer](ideas/ai-feature-flag-rollout-reviewer.md)：把操作者导入的开关快照、灰度计划和摘要观测拆成事实、阻断项、待确认问题和人工动作。
+  - 覆盖只读 MVP 边界、模块、JSON 数据结构、8 步实现顺序与 A01–A10 验收标准；默认不读取/修改远程 flag，不接入监控或生产控制面，也不宣布发布成功。
+  - 新增[中文短帖](content/2026-11-18-feature-flag-rollout-reviewer.md)；本次是设计文档，未运行灰度、回滚、审批或线上验证。
+
 - 2026-11-11:
   - [CI Failure Evidence Navigator 离线校验器](docs/ci-failure-evidence-validator.md) 已提供零依赖 Node.js 合成事件校验、fixture 与 10 个验收测试；拒绝跨 run 混入、截断日志根因断言、疑似 token、无效 SHA 与自动 rerun/merge 文本。
   - [中文短帖](content/2026-11-11-ci-failure-evidence-validator.md)：CI 失败助手先交证据链，再谈排障建议。
