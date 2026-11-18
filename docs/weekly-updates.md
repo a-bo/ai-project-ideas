@@ -1,3 +1,26 @@
+## 2026-11-18
+
+### Shipped
+
+- Added the complete [AI Feature Flag Rollout Reviewer](../ideas/ai-feature-flag-rollout-reviewer.md) plan and its [Chinese short post](../content/2026-11-18-feature-flag-rollout-reviewer.md).
+- The proposed offline MVP separates operator-imported configuration/plan facts, blocking gaps, human-review questions and manual actions; it rejects turning `recorded_not_decided` into a release-success claim.
+
+### Evidence boundary
+
+- This is a design document only. No remote flag, production metric, CI, Kubernetes, database or notification system was read or changed.
+- No rollout, rollback, approval, deployment or health conclusion was executed or claimed.
+
+### Weekly snapshot
+
+- ai-project-ideas: 1 star, 0 forks, 3 open issues, 0 open pull requests.
+- awesome-embodied-ai-cn: 5 stars, 0 forks, 2 open issues, 0 open pull requests.
+- Snapshot source: GitHub repository API, checked 2026-11-18.
+
+### Next
+
+- Implement A01-A10 as synthetic offline fixtures before considering any controlled local import.
+- Keep all production actions and risk acceptance explicitly human-controlled.
+
 ## 2026-11-11
 
 ### Shipped
