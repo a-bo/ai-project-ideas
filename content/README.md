@@ -4,6 +4,7 @@
 
 | 日期 | 主题 | 对应成果 |
 | --- | --- | --- |
+| 2026-11-18 | [灰度发布不是“开 5% 看监控”](2026-11-18-feature-flag-rollout-reviewer.md) | [AI Feature Flag Rollout Reviewer 项目方案](../ideas/ai-feature-flag-rollout-reviewer.md) |
 | 2026-11-11 | [CI 失败助手的第一步，不是“读日志猜根因”](2026-11-11-ci-failure-evidence-validator.md) | [离线 CI 证据校验器](../docs/ci-failure-evidence-validator.md) |
 | 2026-11-09 | [API 升级不是一段 diff：先把“契约变化”和“待确认影响”拆开](2026-11-09-api-contract-drift-reviewer.md) | [AI API Contract Drift Reviewer 项目方案](../ideas/ai-api-contract-drift-reviewer.md) |
 | 2026-11-04 | [CI 失败排障，不该从“猜原因”开始](2026-11-04-ci-failure-evidence-navigator.md) | [AI CI Failure Evidence Navigator 项目方案](../ideas/ai-ci-failure-evidence-navigator.md) |
