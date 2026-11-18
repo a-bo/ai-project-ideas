@@ -61,3 +61,9 @@
 把两份由操作者导入的 API 契约和可选调用清单拆成可定位的观察、待人工复查项与覆盖未知项；MVP 不拉取私有数据、不改代码、不宣布兼容性。
 
 详情：[ai-api-contract-drift-reviewer.md](ai-api-contract-drift-reviewer.md)
+
+## 11. AI Feature Flag Rollout Reviewer
+
+把操作者导出的开关配置、灰度阶段与摘要观测拆成可回查事实、阻断项、待确认问题和人工动作；MVP 不连接远程 flag、监控或生产控制面。
+
+详情：[ai-feature-flag-rollout-reviewer.md](ai-feature-flag-rollout-reviewer.md)
