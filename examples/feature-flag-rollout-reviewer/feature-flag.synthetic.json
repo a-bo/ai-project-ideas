@@ -1,0 +1,8 @@
+{
+  "review_id": "rr_checkout_v2_staging_20261123",
+  "environment": "staging",
+  "flags": [{"key":"checkout_v2","environment":"staging","rollout_percent":5,"evidence_id":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}],
+  "stages": [{"stage_id":"S1","target_percent":5,"observation_window_minutes":30,"stop_rule":"human-defined threshold reference","rollback_owner_role":"release-manager","evidence_id":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}],
+  "observations": [{"stage_id":"S1","status":"recorded_not_decided","source_label":"operator-export","evidence_id":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"}],
+  "approvals": [{"role":"release-manager","scope":"review S1 record","evidence_id":"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"}]
+}
