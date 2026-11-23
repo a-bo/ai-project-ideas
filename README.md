@@ -53,6 +53,11 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-23:
+  - 为 [AI Feature Flag Rollout Reviewer](ideas/ai-feature-flag-rollout-reviewer.md) 新增可运行的[离线结构校验器](docs/feature-flag-rollout-reviewer-validator.md)、合成 fixture 与 10 个验收测试。
+  - 校验器仅接受单环境、可回链的合成/脱敏 review 记录；拒绝环境混用、敏感文本、阶段倒退与“发布成功/可以全量”结论。
+  - 新增[中文短帖](content/2026-11-23-feature-flag-rollout-validator.md)；仅运行本地合成测试，未连接或修改任何 flag、监控或生产环境。
+
 - 2026-11-18:
   - 新增完整项目方案 [AI Feature Flag Rollout Reviewer](ideas/ai-feature-flag-rollout-reviewer.md)：把操作者导入的开关快照、灰度计划和摘要观测拆成事实、阻断项、待确认问题和人工动作。
   - 覆盖只读 MVP 边界、模块、JSON 数据结构、8 步实现顺序与 A01–A10 验收标准；默认不读取/修改远程 flag，不接入监控或生产控制面，也不宣布发布成功。
