@@ -140,6 +140,11 @@
 | A09 | 仅有 recorded_not_decided | 禁止写成“发布成功” |
 | A10 | 无回滚角色或审批引用 | 输出人工确认问题，不创建任何远程动作 |
 
+## 已实现的离线示例
+
+- [零依赖结构校验器](../docs/feature-flag-rollout-reviewer-validator.md)已覆盖 A01–A10 的合成输入：单环境、证据 ID、阶段顺序、停止条件、回滚角色、观测归属、敏感文本与禁止成功结论。
+- [示例目录](../examples/feature-flag-rollout-reviewer/README.md)可在 Node.js 20+ 运行；它只验证合成或脱敏记录的结构，不连接远程 flag 或生产系统。
+
 ## 可扩展方向
 
 - 对接操作者下载的不同厂商导出文件，但保持离线解析
