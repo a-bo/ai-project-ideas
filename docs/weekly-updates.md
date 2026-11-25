@@ -1,3 +1,27 @@
+## 2026-11-25
+
+### Shipped
+
+- Added the complete [AI Database Migration Evidence Reviewer](../ideas/ai-database-migration-evidence-reviewer.md) plan and its [Chinese short post](../content/2026-11-25-database-migration-evidence-reviewer.md).
+- The proposed offline MVP separates operator-imported migration intent, schema summaries, impact lists, rehearsal summaries and rollback preparation into evidence-linked facts, blockers, human-review questions and manual actions.
+- Defined a normalized record shape, six MVP modules, nine implementation steps and A01–A10 acceptance conditions for a single-environment review package.
+
+### Evidence boundary
+
+- This is a documentation plan, not a database migration tool.
+- No real schema, SQL, database, backup, rehearsal, rollout, rollback, production data or credentials were read, changed or executed.
+
+### Weekly snapshot
+
+- ai-project-ideas: 1 star, 0 forks, 3 open issues, 0 open pull requests.
+- awesome-embodied-ai-cn: 5 stars, 0 forks, 2 open issues, 0 open pull requests.
+- Snapshot source: GitHub repository API, checked 2026-11-23; issue/PR state rechecked 2026-11-25.
+
+### Next
+
+- Implement A01–A10 as fully synthetic fixtures and a dependency-free validator before considering an explicit local-file importer.
+- Keep all database access, migration execution, backup, rollback and risk acceptance human-controlled.
+
 ## 2026-11-23
 
 ### Shipped
