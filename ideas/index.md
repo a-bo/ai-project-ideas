@@ -15,6 +15,7 @@
 | [AI CI Failure Evidence Navigator](ai-ci-failure-evidence-navigator.md) | 把 CI 失败整理成证据、未知项与人工检查单 | 中等 |
 | [AI API Contract Drift Reviewer](ai-api-contract-drift-reviewer.md) | 用可回查的契约变化与人工复查项准备 API 升级 | 中等 |
 | [AI Feature Flag Rollout Reviewer](ai-feature-flag-rollout-reviewer.md) | 用配置、计划和观测证据准备人工灰度 review | 中等 |
+| [AI Database Migration Evidence Reviewer](ai-database-migration-evidence-reviewer.md) | 用快照、影响和回退证据准备人工迁移 review | 中等偏上 |
 | [AI README Generator](ai-readme-generator.md) | 根据仓库代码自动生成高质量 README | 中等 |
 | [AI Commit Assistant](ai-commit-assistant.md) | 根据 diff 生成规范 Commit Message 和变更说明 | 简单 |
 
