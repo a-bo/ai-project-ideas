@@ -67,3 +67,9 @@
 把操作者导出的开关配置、灰度阶段与摘要观测拆成可回查事实、阻断项、待确认问题和人工动作；MVP 不连接远程 flag、监控或生产控制面。
 
 详情：[ai-feature-flag-rollout-reviewer.md](ai-feature-flag-rollout-reviewer.md)
+
+## 12. AI Database Migration Evidence Reviewer
+
+把本地导入的迁移意图、schema 摘要、影响清单、演练与回退准备拆成可回查事实、阻断项、待人工确认问题和人工动作；MVP 不连接数据库、不执行 SQL。
+
+详情：[ai-database-migration-evidence-reviewer.md](ai-database-migration-evidence-reviewer.md)
