@@ -53,6 +53,11 @@
 完整索引：[ideas/index.md](ideas/index.md)
 
 ## Weekly Updates
+- 2026-11-25:
+  - 新增完整项目方案 [AI Database Migration Evidence Reviewer](ideas/ai-database-migration-evidence-reviewer.md)：将操作者导入的迁移意图、schema 摘要、影响清单、演练与回退准备分为可回查事实、阻断项、待确认问题和人工动作。
+  - 覆盖只读 MVP 边界、模块、JSON 数据结构、9 步实现顺序与 A01–A10 验收标准；默认不连接数据库、不生成/执行 SQL、不创建备份，也不宣告迁移安全或完成。
+  - 新增[中文短帖](content/2026-11-25-database-migration-evidence-reviewer.md)；本次是设计文档，未读取真实 schema、执行迁移、备份、回退或访问生产数据。
+
 - 2026-11-23:
   - 为 [AI Feature Flag Rollout Reviewer](ideas/ai-feature-flag-rollout-reviewer.md) 新增可运行的[离线结构校验器](docs/feature-flag-rollout-reviewer-validator.md)、合成 fixture 与 10 个验收测试。
   - 校验器仅接受单环境、可回链的合成/脱敏 review 记录；拒绝环境混用、敏感文本、阶段倒退与“发布成功/可以全量”结论。
